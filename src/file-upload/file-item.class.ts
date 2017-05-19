@@ -142,7 +142,7 @@ export class FileItem {
   public _onComplete(response:string, status:number, headers:ParsedResponseHeaders):void {
     this.onComplete(response, status, headers);
 
-    if (this.uploader.options.removeAfterUpload) {
+    if (this.uploader.options.removeAfterUpload && this.isSuccess) {
       this.remove();
     }
   }
