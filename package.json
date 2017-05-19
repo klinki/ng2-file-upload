@@ -1,5 +1,5 @@
 {
-  "name": "ng2-file-upload-base",
+  "name": "ng2-file-upload",
   "version": "1.2.1",
   "private": true,
   "description": "Angular file upload directives",
